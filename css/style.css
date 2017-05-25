@@ -529,7 +529,10 @@ h1, h2, h3
 
 @media screen and (max-width: 480px)
 {	
-
+	#topcontainer .img-responsive {
+		width: 300px;
+		height: auto;
+	}
 	body
 	{
 		font-size: 21px;
@@ -589,3 +592,8 @@ h1, h2, h3
 	
 }
 
+
+.img-responsive {
+	width: 500px;
+	height: 200px;
+}
